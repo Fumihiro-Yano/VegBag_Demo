@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F12CEFE110531C34A72DEC610CB585167B3A294",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8F12CEFE110531C34A72DEC610CB585167B3A294" : 0,
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "330908C8-C05E-469E-A46C-401C834D7616",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8F12CEFE110531C34A72DEC610CB585167B3A294" : "VegBag_Demo\/",
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : "PageMenu\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VegBag_Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VegBag_Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Fumihiro-Yano\/VegBag_Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F12CEFE110531C34A72DEC610CB585167B3A294"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uacaps\/PageMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F"
+    }
+  ]
+}
