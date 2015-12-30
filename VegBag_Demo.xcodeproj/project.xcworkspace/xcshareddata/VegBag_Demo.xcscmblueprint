@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "8F12CEFE110531C34A72DEC610CB585167B3A294" : 0,
-    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : 0
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : 0,
+    "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "330908C8-C05E-469E-A46C-401C834D7616",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "8F12CEFE110531C34A72DEC610CB585167B3A294" : "VegBag_Demo\/",
-    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : "PageMenu\/"
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : "PageMenu\/",
+    "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719" : "HorizontalScrolling\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "VegBag_Demo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uacaps\/PageMenu.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Fumihiro-Yano\/HorizontalScrollingTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719"
     }
   ]
 }

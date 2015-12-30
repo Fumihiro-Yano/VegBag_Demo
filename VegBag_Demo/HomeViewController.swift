@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // MARK: - UI Setup
-        self.title = "PAGE MENU"
+        self.title = "VegBag"
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 30.0/255.0, green: 30.0/255.0, blue: 30.0/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
@@ -31,18 +31,52 @@ class HomeViewController: UIViewController {
                 // Initialize view controllers to display and place in array
         var controllerArray : [UIViewController] = []
         
-        let controller1 : TestTableViewController = TestTableViewController(nibName: "TestTableViewController", bundle: nil)
-        controller1.title = "FRIENDS"
+        let controller1 : FlowerVegetablesCollectionViewController = FlowerVegetablesCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller1.title = "VegBag"
         controllerArray.append(controller1)
-        let controller2 : TestCollectionViewController = TestCollectionViewController(nibName: "TestCollectionViewController", bundle: nil)
+        
+        let controller2 : BaseCollectionViewController = BaseCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
         controller2.title = "MOOD"
         controllerArray.append(controller2)
+        
         let controller3 : TestViewController = TestViewController(nibName: "TestViewController", bundle: nil)
         controller3.title = "MUSIC"
         controllerArray.append(controller3)
+        
         let controller4 : TestViewController = TestViewController(nibName: "TestViewController", bundle: nil)
         controller4.title = "FAVORITES"
         controllerArray.append(controller4)
+        
+        let controller5 : EdibleRootsCollectionViewController = EdibleRootsCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller5.title = "EdibleRoots"
+        controllerArray.append(controller5)
+        
+        let controller6 : FruitVegetablesCollectionViewController = FruitVegetablesCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller6.title = "FruitVegetables"
+        controllerArray.append(controller6)
+        
+        let controller7 : FlowerVegetablesCollectionViewController = FlowerVegetablesCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller7.title = "FlowerVegetables"
+        controllerArray.append(controller7)
+        
+        let controller8 : StemVegetablesCollectionViewController = StemVegetablesCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller8.title = "StemVegetables"
+        controllerArray.append(controller8)
+        
+        let controller9 : LeafyVegetablesCollectionViewConroller = LeafyVegetablesCollectionViewConroller(nibName: "BaseCollectionViewController", bundle: nil)
+        controller9.title = "LeafyVegetables"
+        controllerArray.append(controller9)
+    
+        let controller10 : FruitCollectionViewController = FruitCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller10.title = "FruitCollection"
+        controllerArray.append(controller10)
+        
+        let controller11 : KyotoVegetablesCollectionViewController = KyotoVegetablesCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
+        controller11.title = "KyotoVegetables"
+        controllerArray.append(controller11)
+        
+        
+        
         
         // Customize menu (Optional)
         let parameters: [CAPSPageMenuOption] = [
