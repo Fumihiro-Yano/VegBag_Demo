@@ -14,8 +14,6 @@
 		E7EA16491C32BCF000C43FF4 /* VegBag_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16481C32BCF000C43FF4 /* VegBag_DemoTests.swift */; };
 		E7EA16541C32BCF000C43FF4 /* VegBag_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16531C32BCF000C43FF4 /* VegBag_DemoUITests.swift */; };
 		E7EA16681C33A2D100C43FF4 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16671C33A2D100C43FF4 /* CAPSPageMenu.swift */; settings = {ASSET_TAGS = (); }; };
-		E7EA16701C33A68700C43FF4 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA166A1C33A68700C43FF4 /* BaseCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		E7EA16711C33A68700C43FF4 /* BaseCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7EA166B1C33A68700C43FF4 /* BaseCollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		E7EA16721C33A68700C43FF4 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA166C1C33A68700C43FF4 /* TestTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7EA16731C33A68700C43FF4 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7EA166D1C33A68700C43FF4 /* TestTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		E7EA16741C33A68700C43FF4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA166E1C33A68700C43FF4 /* TestViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -65,6 +63,8 @@
 		E7EA16CE1C33D99E00C43FF4 /* LeafyVegetablesCollectionViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16CD1C33D99E00C43FF4 /* LeafyVegetablesCollectionViewConroller.swift */; settings = {ASSET_TAGS = (); }; };
 		E7EA16D01C33D9C200C43FF4 /* FruitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16CF1C33D9C200C43FF4 /* FruitCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7EA16D21C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16D11C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7EA16D41C33E2E300C43FF4 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16D31C33E2E300C43FF4 /* BaseCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7EA16D61C33E2F500C43FF4 /* BaseCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7EA16D51C33E2F500C43FF4 /* BaseCollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,8 +98,6 @@
 		E7EA16531C32BCF000C43FF4 /* VegBag_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegBag_DemoUITests.swift; sourceTree = "<group>"; };
 		E7EA16551C32BCF000C43FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EA16671C33A2D100C43FF4 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
-		E7EA166A1C33A68700C43FF4 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCollectionViewController.swift; path = "../PageMenu/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/BaseCollectionViewController.swift"; sourceTree = "<group>"; };
-		E7EA166B1C33A68700C43FF4 /* BaseCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseCollectionViewController.xib; path = "../PageMenu/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/BaseCollectionViewController.xib"; sourceTree = "<group>"; };
 		E7EA166C1C33A68700C43FF4 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestTableViewController.swift; path = "../PageMenu/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/TestTableViewController.swift"; sourceTree = "<group>"; };
 		E7EA166D1C33A68700C43FF4 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestTableViewController.xib; path = "../PageMenu/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/TestTableViewController.xib"; sourceTree = "<group>"; };
 		E7EA166E1C33A68700C43FF4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = "../PageMenu/Demos/Demo 1/PageMenuDemoStoryboard/PageMenuDemoStoryboard/TestViewController.swift"; sourceTree = "<group>"; };
@@ -149,6 +147,8 @@
 		E7EA16CD1C33D99E00C43FF4 /* LeafyVegetablesCollectionViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafyVegetablesCollectionViewConroller.swift; sourceTree = "<group>"; };
 		E7EA16CF1C33D9C200C43FF4 /* FruitCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitCollectionViewController.swift; sourceTree = "<group>"; };
 		E7EA16D11C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyotoVegetablesCollectionViewController.swift; sourceTree = "<group>"; };
+		E7EA16D31C33E2E300C43FF4 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCollectionViewController.swift; path = VegBag_Demo/BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		E7EA16D51C33E2F500C43FF4 /* BaseCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaseCollectionViewController.xib; path = VegBag_Demo/BaseCollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,7 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */,
-				E7EA166A1C33A68700C43FF4 /* BaseCollectionViewController.swift */,
+				E7EA16D31C33E2E300C43FF4 /* BaseCollectionViewController.swift */,
 				E7EA16C51C33D3FA00C43FF4 /* EdibleRootsCollectionViewController.swift */,
 				E7EA16C71C33D70E00C43FF4 /* FruitVegetablesCollectionViewController.swift */,
 				E7EA16C91C33D95F00C43FF4 /* FlowerVegetablesCollectionViewController.swift */,
@@ -249,7 +249,7 @@
 				E7EA16CD1C33D99E00C43FF4 /* LeafyVegetablesCollectionViewConroller.swift */,
 				E7EA16CF1C33D9C200C43FF4 /* FruitCollectionViewController.swift */,
 				E7EA16D11C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift */,
-				E7EA166B1C33A68700C43FF4 /* BaseCollectionViewController.xib */,
+				E7EA16D51C33E2F500C43FF4 /* BaseCollectionViewController.xib */,
 				E7EA166C1C33A68700C43FF4 /* TestTableViewController.swift */,
 				E7EA166D1C33A68700C43FF4 /* TestTableViewController.xib */,
 				E7EA166E1C33A68700C43FF4 /* TestViewController.swift */,
@@ -431,7 +431,6 @@
 				E7EA16A21C33AC1900C43FF4 /* man1.jpg in Resources */,
 				E7EA169D1C33AC1900C43FF4 /* active.png in Resources */,
 				E7EA16B71C33AC1900C43FF4 /* woman3.jpg in Resources */,
-				E7EA16711C33A68700C43FF4 /* BaseCollectionViewController.xib in Resources */,
 				E7EA167C1C33A70A00C43FF4 /* FriendTableViewCell.xib in Resources */,
 				E7EA16C01C33CE7800C43FF4 /* Vegetables.jpg in Resources */,
 				E7EA16A81C33AC1900C43FF4 /* man7.jpg in Resources */,
@@ -450,6 +449,7 @@
 				E7EA16A61C33AC1900C43FF4 /* man5.jpg in Resources */,
 				E7EA16B21C33AC1900C43FF4 /* playful.png in Resources */,
 				E7EA169E1C33AC1900C43FF4 /* adventurous.png in Resources */,
+				E7EA16D61C33E2F500C43FF4 /* BaseCollectionViewController.xib in Resources */,
 				E7EA163E1C32BCF000C43FF4 /* LaunchScreen.storyboard in Resources */,
 				E7EA16A71C33AC1900C43FF4 /* man6.jpg in Resources */,
 				E7EA163B1C32BCF000C43FF4 /* Assets.xcassets in Resources */,
@@ -489,7 +489,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EA16701C33A68700C43FF4 /* BaseCollectionViewController.swift in Sources */,
 				E7EA16D01C33D9C200C43FF4 /* FruitCollectionViewController.swift in Sources */,
 				E7EA16CA1C33D95F00C43FF4 /* FlowerVegetablesCollectionViewController.swift in Sources */,
 				E7EA16721C33A68700C43FF4 /* TestTableViewController.swift in Sources */,
@@ -504,6 +503,7 @@
 				E7EA16D21C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift in Sources */,
 				E7EA16681C33A2D100C43FF4 /* CAPSPageMenu.swift in Sources */,
 				E7EA167B1C33A70A00C43FF4 /* FriendTableViewCell.swift in Sources */,
+				E7EA16D41C33E2E300C43FF4 /* BaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
