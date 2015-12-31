@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        let first: HomeViewController = HomeViewController()
+        
+        let first: HomeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
         let left: SlideMenuViewController = SlideMenuViewController()
         
         

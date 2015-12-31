@@ -12,7 +12,16 @@ import BubbleTransition
 var pageMenu : CAPSPageMenu?
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var exhibitButton: UIButton!
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // MARK: - UI Setup
@@ -99,6 +108,8 @@ class HomeViewController: UIViewController {
         self.view.addSubview(pageMenu!.view)
         pageMenu!.didMoveToParentViewController(self)
         
+        //exhibitButtonを一番上に持ってくる。
+        self.view.bringSubviewToFront(exhibitButton)
     }
 
     override func didReceiveMemoryWarning() {
