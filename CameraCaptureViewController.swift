@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class  CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate {
+class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate {
     
     var input:AVCaptureDeviceInput!
     var output:AVCaptureStillImageOutput!

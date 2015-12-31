@@ -156,7 +156,7 @@ class HomeViewController: UIViewController, UIViewControllerTransitioningDelegat
 
     //ExhibitButtonをBubbleTransitionAnimationで表示
     @IBAction func onClickExhibitButton(sender: UIButton) {
-        let  cameraCaptureViewController =  CameraCaptureViewController()
+        let cameraCaptureViewController = CameraCaptureViewController()
         let navigationController = UINavigationController(rootViewController: cameraCaptureViewController)
         navigationController.transitioningDelegate = self
         navigationController.modalPresentationStyle = .Custom
