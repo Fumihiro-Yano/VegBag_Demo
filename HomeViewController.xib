@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="VegBag_Demo" customModuleProvider="target">
@@ -17,11 +16,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xz7-Rk-WGE">
-                    <rect key="frame" x="532" y="532" width="60" height="60"/>
+                    <rect key="frame" x="543" y="539" width="60" height="60"/>
                     <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="AXQ-nr-koa"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="rTp-iM-8XV"/>
+                        <constraint firstAttribute="width" constant="60" id="VGl-qf-bd2"/>
+                        <constraint firstAttribute="height" constant="60" id="dbe-4n-jwf"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
                     <state key="normal" title="Exx">
@@ -40,10 +39,8 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="Xz7-Rk-WGE" secondAttribute="trailing" constant="8" id="7iF-3C-ymw"/>
-                <constraint firstAttribute="bottom" secondItem="Xz7-Rk-WGE" secondAttribute="bottom" constant="8" id="cVW-lZ-9Mf"/>
-                <constraint firstItem="Xz7-Rk-WGE" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="hkl-VI-EFo"/>
-                <constraint firstItem="Xz7-Rk-WGE" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="yrl-fM-Nud"/>
+                <constraint firstAttribute="bottom" secondItem="Xz7-Rk-WGE" secondAttribute="bottom" constant="1" id="Mv8-ij-lXR"/>
+                <constraint firstAttribute="trailing" secondItem="Xz7-Rk-WGE" secondAttribute="trailing" constant="-3" id="aX1-Zs-RG0"/>
             </constraints>
         </view>
     </objects>
