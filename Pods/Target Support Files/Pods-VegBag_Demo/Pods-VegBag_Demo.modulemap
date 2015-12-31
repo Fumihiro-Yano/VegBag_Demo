@@ -1,0 +1,6 @@
+framework module Pods_VegBag_Demo {
+  umbrella header "Pods-VegBag_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

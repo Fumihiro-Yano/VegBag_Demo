@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F12CEFE110531C34A72DEC610CB585167B3A294",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8F12CEFE110531C34A72DEC610CB585167B3A294" : 0,
+    "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719" : 0,
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E066D03A-07FB-4940-8C98-DA6A9E6F3948",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8F12CEFE110531C34A72DEC610CB585167B3A294" : "VegBag_Demo\/",
+    "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719" : "HorizontalScrolling\/",
+    "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F" : "PageMenu\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VegBag_Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VegBag_Demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Fumihiro-Yano\/VegBag_Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F12CEFE110531C34A72DEC610CB585167B3A294"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:uacaps\/PageMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C23231E5EFD93B6A993CB3835D46F61DAF0EBC9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Fumihiro-Yano\/HorizontalScrollingTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5CFF05002F3A6F0EFF8BE503FDCCDF6C1810719"
+    }
+  ]
+}
