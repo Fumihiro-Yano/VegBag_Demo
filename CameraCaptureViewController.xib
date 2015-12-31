@@ -15,12 +15,39 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fhm-RC-Fj1">
-                    <rect key="frame" x="0.0" y="0.0" width="601" height="459"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fhm-RC-Fj1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="441"/>
                     <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnS-d9-O3J">
+                    <rect key="frame" x="255" y="506" width="90" height="48"/>
+                    <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="a8w-mf-J82"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="◎"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSw-bZ-Lue">
+                    <rect key="frame" x="165" y="518" width="40" height="24"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="アルバム"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GnS-d9-O3J" firstAttribute="centerX" secondItem="Fhm-RC-Fj1" secondAttribute="centerX" id="AhN-yk-ENM"/>
+                <constraint firstAttribute="bottom" secondItem="GnS-d9-O3J" secondAttribute="bottom" constant="46" id="I7e-qU-pGC"/>
+                <constraint firstItem="GnS-d9-O3J" firstAttribute="leading" secondItem="kSw-bZ-Lue" secondAttribute="trailing" constant="50" id="IS7-Fl-Rnr"/>
+                <constraint firstItem="GnS-d9-O3J" firstAttribute="top" secondItem="Fhm-RC-Fj1" secondAttribute="bottom" constant="65" id="YAF-s1-hUU"/>
+                <constraint firstItem="Fhm-RC-Fj1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ePw-Up-rzA"/>
+                <constraint firstItem="GnS-d9-O3J" firstAttribute="centerY" secondItem="kSw-bZ-Lue" secondAttribute="centerY" id="fIa-Qi-jZg"/>
+                <constraint firstItem="Fhm-RC-Fj1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hDU-uQ-AI6"/>
+                <constraint firstItem="GnS-d9-O3J" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tnX-tj-EOP"/>
+            </constraints>
         </view>
     </objects>
 </document>
