@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3E0962B0888768F2C689DED9'
-               BlueprintName = 'SlideMenuControllerSwift'
+               BlueprintIdentifier = '4728A8E3E3D000A74FAE6563'
+               BlueprintName = 'BubbleTransition'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SlideMenuControllerSwift.framework'>
+               BuildableName = 'BubbleTransition.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

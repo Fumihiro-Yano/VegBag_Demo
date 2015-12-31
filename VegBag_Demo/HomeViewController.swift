@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BubbleTransition
 
 var pageMenu : CAPSPageMenu?
 
@@ -97,6 +98,7 @@ class HomeViewController: UIViewController {
         //self.addChildViewController(pageMenu!)
         self.view.addSubview(pageMenu!.view)
         pageMenu!.didMoveToParentViewController(self)
+        
     }
 
     override func didReceiveMemoryWarning() {
