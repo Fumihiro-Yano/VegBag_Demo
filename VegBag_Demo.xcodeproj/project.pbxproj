@@ -15,6 +15,7 @@
 		E752EC601C34EDCB00949AB0 /* SliderMenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC5F1C34EDCB00949AB0 /* SliderMenuHandler.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC631C34EE0B00949AB0 /* SlideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E752EC611C34EE0B00949AB0 /* SlideMenuTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		E752EC641C34EE0B00949AB0 /* SlideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC621C34EE0B00949AB0 /* SlideMenuTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E752EC661C34FA6800949AB0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E752EC651C34FA6800949AB0 /* HomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		E786CC761C34E30D009646EB /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786CC751C34E30D009646EB /* SlideMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E786CC7B1C34EC74009646EB /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E786CC791C34EC74009646EB /* ImageHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
 		E786CC7C1C34EC74009646EB /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786CC7A1C34EC74009646EB /* ImageHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
@@ -106,6 +107,7 @@
 		E752EC5F1C34EDCB00949AB0 /* SliderMenuHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderMenuHandler.swift; sourceTree = "<group>"; };
 		E752EC611C34EE0B00949AB0 /* SlideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		E752EC621C34EE0B00949AB0 /* SlideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		E752EC651C34FA6800949AB0 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		E786CC751C34E30D009646EB /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
 		E786CC791C34EC74009646EB /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
 		E786CC7A1C34EC74009646EB /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */,
+				E752EC651C34FA6800949AB0 /* HomeViewController.xib */,
 				E786CC751C34E30D009646EB /* SlideMenuViewController.swift */,
 				E7EA16D31C33E2E300C43FF4 /* BaseCollectionViewController.swift */,
 				E7EA16C51C33D3FA00C43FF4 /* EdibleRootsCollectionViewController.swift */,
@@ -556,6 +559,7 @@
 				E7EA16C21C33CE7800C43FF4 /* menu24.png in Resources */,
 				E7EA16DA1C33E52200C43FF4 /* TestViewController.xib in Resources */,
 				E7EA16B61C33AC1900C43FF4 /* woman2.jpg in Resources */,
+				E752EC661C34FA6800949AB0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

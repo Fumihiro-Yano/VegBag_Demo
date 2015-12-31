@@ -5,6 +5,7 @@
 
 target 'VegBag_Demo' do
   pod 'SlideMenuControllerSwift'
+  pod 'BubbleTransition', '~> 1.0.0'
 end
 
 target 'VegBag_DemoTests' do

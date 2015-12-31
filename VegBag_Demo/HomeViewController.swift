@@ -7,22 +7,38 @@
 //
 
 import UIKit
+import BubbleTransition
 
 var pageMenu : CAPSPageMenu?
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var exhibitButton: UIButton!
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // MARK: - UI Setup
         self.title = "VegBag"
         self.addLeftBarButtonWithImage(UIImage(named: "menu24.png")!)
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 30.0/255.0, green: 30.0/255.0, blue: 30.0/255.0, alpha: 1.0)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor()]
+        let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: self, action: "onClicksearchButton:")
+        let bellButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "onClickbellButton:")
+        let rightBarButtons: NSArray = [searchButton, bellButton]
+        
+        self.navigationItem.setRightBarButtonItems(rightBarButtons as? [UIBarButtonItem], animated: true)
+        
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 30.0/255.0, green: 30.0/255.0, blue: 30.0/255.0, alpha: 1.0)
+//        self.navigationController?.navigationBar.shadowImage = UIImage()
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+//        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+//        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor()]
         
 //                self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "<-", style: UIBarButtonItemStyle.Done, target: self, action: "didTapGoToLeft")
 //                self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "->", style: UIBarButtonItemStyle.Done, target: self, action: "didTapGoToRight")
@@ -92,11 +108,14 @@ class HomeViewController: UIViewController {
         ]
         
         // Initialize scroll menu
-        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRectMake(0.0, 75.0, self.view.frame.width, self.view.frame.height - 75.0), pageMenuOptions: parameters)
+        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRectMake(0.0, 60.0, self.view.frame.width, self.view.frame.height - 60.0), pageMenuOptions: parameters)
         
         //self.addChildViewController(pageMenu!)
         self.view.addSubview(pageMenu!.view)
         pageMenu!.didMoveToParentViewController(self)
+        
+        //exhibitButtonを一番上に持ってくる。
+        self.view.bringSubviewToFront(exhibitButton)
     }
 
     override func didReceiveMemoryWarning() {

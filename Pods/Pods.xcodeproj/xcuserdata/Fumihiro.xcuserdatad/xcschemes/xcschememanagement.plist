@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BubbleTransition.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-VegBag_Demo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>55CF286FDDC36862D66935D30EF60521</key>
+		<key>491CC4F397D0BB59989E2313AF932C0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>967F661B4B01C045589DD4D788EC98D8</key>
+		<key>7372CA79CE92E7AC032175441663EBE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F28340725DF972EA2B3F83B86B8E06C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -29,7 +29,7 @@ class SliderMenuHandler {
     func getViewController() -> UIViewController {
         switch self.type {
         case .Home:
-            let homeViewController = HomeViewController()
+            let homeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
             return homeViewController
         case .Like:
             let testTableViewController = TestTableViewController()

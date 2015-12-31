@@ -7,73 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		115B496ABD1E626C5B74FF9E00708D40 /* Pods-VegBag_Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B14AE1A422748E1169AB681D28917A36 /* Pods-VegBag_Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46891C62AD6BD5F84E6EEC02F7ACBCD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		74960770E9AAD80D4ECA0BA326B3543F /* Pods-VegBag_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D536179D90712D7CE5597D1B8AAB723 /* Pods-VegBag_Demo-dummy.m */; };
-		95B47588B3BFC677ABBAB23AF226CD22 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 19CBF6B58174AFDE13C3146CD9CEE178 /* Info.plist */; };
-		A174007A4953B7A2E795DCF9C813BA1C /* SlideMenuControllerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B539DD6EFA5C1933CE58B100DA78209B /* SlideMenuControllerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3F31F305094BC32318C19556722B178 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D8389834A55A50B9E00ED4C645C9FA /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2536928C967AEA29669884CB5C5AE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F6EB7B39A7719CF4A9986F91CCCB1F6C /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CBFE5AC5922C790D25A09CDB29474B /* SlideMenuControllerSwift-dummy.m */; };
-		FB0DDCFC435D42C6826452540470659A /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683C0351A855C84F1DD16EBB399A171 /* SlideMenuController.swift */; };
+		16462AC2018B14E364BAF7B65FC40570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2AB9FC22E29A5DEF6BE0A76F6A725578 /* Pods-VegBag_Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B14AE1A422748E1169AB681D28917A36 /* Pods-VegBag_Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0EDEF8BF68B9A4D22FA2C216CB5906 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FBAF0B45D689BD9BB0F22E620CDE605A /* Info.plist */; };
+		55B11FDD956A013F6991BC451087E94E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5EBFCB7C6BDCC4CB45F7A6D33D804490 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F1F1C6F6EB84CA6B315C684F6184FE /* SlideMenuController.swift */; };
+		60E19F9E46C64678505EE8BCCB6AC43C /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D319DE3AEAA2D7E0B420705ADAD1BBF /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6849FAAD72F79DF11E5ED301BB57035F /* BubbleTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9E1F18FEE27BF25E3C3DA012D3CCC6 /* BubbleTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8C5FAC26CCB1CE804E8C89356F1C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C4E79DABD14CC24E9BDC4DABC9818652 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB33F655E8E20B76F633BE32EE9ED0 /* BubbleTransition.swift */; };
+		C9FD2D1EDA1DF772423A8E58EE2DC666 /* BubbleTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 156717D56CCCB83A4C843AA89652B43F /* BubbleTransition-dummy.m */; };
+		D1CD5B498FFD3D9D3B24B6FBA28AF128 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54960473D0C447325100998CCBBEEF /* SlideMenuControllerSwift-dummy.m */; };
+		DF18BAAA0CBF7D599FF6150C37CE287D /* Pods-VegBag_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D536179D90712D7CE5597D1B8AAB723 /* Pods-VegBag_Demo-dummy.m */; };
+		E649F5E30713CDA46A275A0FC01191B0 /* SlideMenuControllerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AF16693AFF99C60D2292EA7B781495 /* SlideMenuControllerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BB011D677F13FC531C14606E43742DF /* PBXContainerItemProxy */ = {
+		9166F219AE4CC78B1C91D9DCD5BD165B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 967F661B4B01C045589DD4D788EC98D8;
+			remoteGlobalIDString = 491CC4F397D0BB59989E2313AF932C0C;
 			remoteInfo = SlideMenuControllerSwift;
+		};
+		E6ACB141B8ADD5E5D53C3951B16B85A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7372CA79CE92E7AC032175441663EBE4;
+			remoteInfo = BubbleTransition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CBFE5AC5922C790D25A09CDB29474B /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		02AF16693AFF99C60D2292EA7B781495 /* SlideMenuControllerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideMenuControllerSwift.h; path = Source/SlideMenuControllerSwift.h; sourceTree = "<group>"; };
 		0848A3201F8EE46189EA452682D39CB2 /* Pods-VegBag_Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VegBag_Demo.modulemap"; sourceTree = "<group>"; };
-		19CBF6B58174AFDE13C3146CD9CEE178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		1DEB9D91A5934D0543E92C6B040C6A7C /* Pods_VegBag_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegBag_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		094FB6340868BC192DA9BEA1F2762F2B /* BubbleTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BubbleTransition.modulemap; sourceTree = "<group>"; };
+		0A07922F6C7B2573C1D0F072A0EE80D4 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		156717D56CCCB83A4C843AA89652B43F /* BubbleTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleTransition-dummy.m"; sourceTree = "<group>"; };
+		19DB33F655E8E20B76F633BE32EE9ED0 /* BubbleTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = Source/BubbleTransition.swift; sourceTree = "<group>"; };
+		1D319DE3AEAA2D7E0B420705ADAD1BBF /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		2E54960473D0C447325100998CCBBEEF /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73FF053BEAE6ADDC3473D0D895F669A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9E1F18FEE27BF25E3C3DA012D3CCC6 /* BubbleTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-umbrella.h"; sourceTree = "<group>"; };
 		7A8B78967A9D710C6BBD9DF7A71F8F9A /* Pods-VegBag_Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VegBag_Demo-resources.sh"; sourceTree = "<group>"; };
 		7ACA56062344C49F3177EA6CCF10E6D0 /* Pods-VegBag_Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VegBag_Demo-frameworks.sh"; sourceTree = "<group>"; };
-		8683C0351A855C84F1DD16EBB399A171 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
-		882CAB3C17FB9EEBEBAE2583DF766A3C /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
+		7E0376F2C89EB211EBE8A5509F3D850E /* BubbleTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleTransition.xcconfig; sourceTree = "<group>"; };
+		8070B4ED03EB17D95E1309BCBBAE1BDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D536179D90712D7CE5597D1B8AAB723 /* Pods-VegBag_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VegBag_Demo-dummy.m"; sourceTree = "<group>"; };
-		93DFF7687C568F8527BDA9633F0EC9BA /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
+		9040AAFD08BA2E498BF4301E8BBC5804 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
 		9551F3C935ABBEF8153C9113913A92C0 /* Pods-VegBag_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VegBag_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9AEFF65F7F14C270D15BE30C5E93DCDD /* Pods_VegBag_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegBag_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B3648864B5ECBD85AADA3472686D12 /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		AA90AD316ACE4BCFEBA04CD8748EEBDF /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
 		B14AE1A422748E1169AB681D28917A36 /* Pods-VegBag_Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VegBag_Demo-umbrella.h"; sourceTree = "<group>"; };
-		B539DD6EFA5C1933CE58B100DA78209B /* SlideMenuControllerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideMenuControllerSwift.h; path = Source/SlideMenuControllerSwift.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAF3DFF03CA20A107F8CE6E650C0D1E0 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F1F1C6F6EB84CA6B315C684F6184FE /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
+		C78357D09E8455799D50C2D0BBE85527 /* BubbleTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-prefix.pch"; sourceTree = "<group>"; };
+		C83F617F91FD6610154DF2219BDEE284 /* BubbleTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E978E7FF1F465F387A3888027232C0 /* Pods-VegBag_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VegBag_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D7488E05D49336CF77CC271894731E95 /* Pods-VegBag_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VegBag_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4D8389834A55A50B9E00ED4C645C9FA /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
 		E585A81DCF48A4E117562535057DF4CA /* Pods-VegBag_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VegBag_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E8101F568A7AC254A8E48DF1F18A3117 /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
 		F72C01B0E8461078622B516AD6A4C59B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAF0B45D689BD9BB0F22E620CDE605A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		FF0D40997A197A81FAF80D8D4841B5C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97E09B623B73A914DD72CADA8B9C8A68 /* Frameworks */ = {
+		366E09354561C799A49CA36E2844E92C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46891C62AD6BD5F84E6EEC02F7ACBCD9 /* Foundation.framework in Frameworks */,
+				55B11FDD956A013F6991BC451087E94E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B97B71371E848BCE8AFC6B6EE4CBAE27 /* Frameworks */ = {
+		803A8F057777BBBF37C54739871812D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2536928C967AEA29669884CB5C5AE02 /* Foundation.framework in Frameworks */,
+				BB8C5FAC26CCB1CE804E8C89356F1C0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC2C2564207CBD31994EB05BD745BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16462AC2018B14E364BAF7B65FC40570 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A5325CC377E01FDFDD67310E404BB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8070B4ED03EB17D95E1309BCBBAE1BDB /* Info.plist */,
+				9040AAFD08BA2E498BF4301E8BBC5804 /* SlideMenuControllerSwift.modulemap */,
+				AA90AD316ACE4BCFEBA04CD8748EEBDF /* SlideMenuControllerSwift.xcconfig */,
+				2E54960473D0C447325100998CCBBEEF /* SlideMenuControllerSwift-dummy.m */,
+				A9B3648864B5ECBD85AADA3472686D12 /* SlideMenuControllerSwift-prefix.pch */,
+				1D319DE3AEAA2D7E0B420705ADAD1BBF /* SlideMenuControllerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
 		15F5B8B633616DE82C45D033BA7B042F /* Pods-VegBag_Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,38 +133,18 @@
 			path = "Target Support Files/Pods-VegBag_Demo";
 			sourceTree = "<group>";
 		};
-		543D5536ACAD75D08CF9F315E27B6C86 /* Products */ = {
+		1F1F42552CCB83ED86EB280B06477B32 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DEB9D91A5934D0543E92C6B040C6A7C /* Pods_VegBag_Demo.framework */,
-				BAF3DFF03CA20A107F8CE6E650C0D1E0 /* SlideMenuControllerSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		563EDCFA795D6859559747FF21FA3CD6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73FF053BEAE6ADDC3473D0D895F669A6 /* Info.plist */,
-				882CAB3C17FB9EEBEBAE2583DF766A3C /* SlideMenuControllerSwift.modulemap */,
-				93DFF7687C568F8527BDA9633F0EC9BA /* SlideMenuControllerSwift.xcconfig */,
-				07CBFE5AC5922C790D25A09CDB29474B /* SlideMenuControllerSwift-dummy.m */,
-				E8101F568A7AC254A8E48DF1F18A3117 /* SlideMenuControllerSwift-prefix.pch */,
-				E4D8389834A55A50B9E00ED4C645C9FA /* SlideMenuControllerSwift-umbrella.h */,
+				094FB6340868BC192DA9BEA1F2762F2B /* BubbleTransition.modulemap */,
+				7E0376F2C89EB211EBE8A5509F3D850E /* BubbleTransition.xcconfig */,
+				156717D56CCCB83A4C843AA89652B43F /* BubbleTransition-dummy.m */,
+				C78357D09E8455799D50C2D0BBE85527 /* BubbleTransition-prefix.pch */,
+				6A9E1F18FEE27BF25E3C3DA012D3CCC6 /* BubbleTransition-umbrella.h */,
+				FF0D40997A197A81FAF80D8D4841B5C1 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SlideMenuControllerSwift";
-			sourceTree = "<group>";
-		};
-		76626F40984672B15B4EF4A8990AA5ED /* SlideMenuControllerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				19CBF6B58174AFDE13C3146CD9CEE178 /* Info.plist */,
-				8683C0351A855C84F1DD16EBB399A171 /* SlideMenuController.swift */,
-				B539DD6EFA5C1933CE58B100DA78209B /* SlideMenuControllerSwift.h */,
-				563EDCFA795D6859559747FF21FA3CD6 /* Support Files */,
-			);
-			path = SlideMenuControllerSwift;
+			path = "../Target Support Files/BubbleTransition";
 			sourceTree = "<group>";
 		};
 		79433A3844D4FA61EDFBB559D01C5544 /* Targets Support Files */ = {
@@ -139,18 +160,39 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B64612CC366CF02E13AC7FA6C2B23332 /* Pods */,
-				543D5536ACAD75D08CF9F315E27B6C86 /* Products */,
+				81DFA1344CFB02825D504739FFC06BF4 /* Pods */,
+				E2CCE2069BC0E4AE4833C94194B336A3 /* Products */,
 				79433A3844D4FA61EDFBB559D01C5544 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B64612CC366CF02E13AC7FA6C2B23332 /* Pods */ = {
+		81DFA1344CFB02825D504739FFC06BF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76626F40984672B15B4EF4A8990AA5ED /* SlideMenuControllerSwift */,
+				A4417EE4560723A979D81D36B21A92FD /* BubbleTransition */,
+				AEB24463DE15B7886829DF7324ABEEF4 /* SlideMenuControllerSwift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4417EE4560723A979D81D36B21A92FD /* BubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				19DB33F655E8E20B76F633BE32EE9ED0 /* BubbleTransition.swift */,
+				1F1F42552CCB83ED86EB280B06477B32 /* Support Files */,
+			);
+			path = BubbleTransition;
+			sourceTree = "<group>";
+		};
+		AEB24463DE15B7886829DF7324ABEEF4 /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF0B45D689BD9BB0F22E620CDE605A /* Info.plist */,
+				C3F1F1C6F6EB84CA6B315C684F6184FE /* SlideMenuController.swift */,
+				02AF16693AFF99C60D2292EA7B781495 /* SlideMenuControllerSwift.h */,
+				05A5325CC377E01FDFDD67310E404BB0 /* Support Files */,
+			);
+			path = SlideMenuControllerSwift;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -169,54 +211,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E2CCE2069BC0E4AE4833C94194B336A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83F617F91FD6610154DF2219BDEE284 /* BubbleTransition.framework */,
+				9AEFF65F7F14C270D15BE30C5E93DCDD /* Pods_VegBag_Demo.framework */,
+				0A07922F6C7B2573C1D0F072A0EE80D4 /* SlideMenuControllerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		234C39BB81CEA0A170782020F79B82B6 /* Headers */ = {
+		D53914E8017F49E75D5923B0FEBBD9D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F31F305094BC32318C19556722B178 /* SlideMenuControllerSwift-umbrella.h in Headers */,
-				A174007A4953B7A2E795DCF9C813BA1C /* SlideMenuControllerSwift.h in Headers */,
+				60E19F9E46C64678505EE8BCCB6AC43C /* SlideMenuControllerSwift-umbrella.h in Headers */,
+				E649F5E30713CDA46A275A0FC01191B0 /* SlideMenuControllerSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D8F85FCC6DEF9C4D55684BAE034A81C /* Headers */ = {
+		E2A041A90C6087B1A41C5429E7B7DE7B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115B496ABD1E626C5B74FF9E00708D40 /* Pods-VegBag_Demo-umbrella.h in Headers */,
+				6849FAAD72F79DF11E5ED301BB57035F /* BubbleTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7138F8994DE889DADBAAB54EB587C1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB9FC22E29A5DEF6BE0A76F6A725578 /* Pods-VegBag_Demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		55CF286FDDC36862D66935D30EF60521 /* Pods-VegBag_Demo */ = {
+		491CC4F397D0BB59989E2313AF932C0C /* SlideMenuControllerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4CB1A0971B6A9CDE8120EFACF16A4F2 /* Build configuration list for PBXNativeTarget "Pods-VegBag_Demo" */;
+			buildConfigurationList = 3837B6C92EFC3963339D44D134531444 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
 			buildPhases = (
-				155873626D7702C17549E35CCA3CA50C /* Sources */,
-				B97B71371E848BCE8AFC6B6EE4CBAE27 /* Frameworks */,
-				2D8F85FCC6DEF9C4D55684BAE034A81C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D9AF61DBF8EE2F1ACEE55DAFC16443A /* PBXTargetDependency */,
-			);
-			name = "Pods-VegBag_Demo";
-			productName = "Pods-VegBag_Demo";
-			productReference = 1DEB9D91A5934D0543E92C6B040C6A7C /* Pods_VegBag_Demo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		967F661B4B01C045589DD4D788EC98D8 /* SlideMenuControllerSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3B7F5D00546F6EB1DB95D6C53DCEC46 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
-			buildPhases = (
-				B84C455AAAEB694DB0572739FA72768C /* Sources */,
-				97E09B623B73A914DD72CADA8B9C8A68 /* Frameworks */,
-				234C39BB81CEA0A170782020F79B82B6 /* Headers */,
+				521EF4B525CEEB30CDB5D5F324E11DF3 /* Sources */,
+				803A8F057777BBBF37C54739871812D6 /* Frameworks */,
+				D53914E8017F49E75D5923B0FEBBD9D7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -224,7 +266,43 @@
 			);
 			name = SlideMenuControllerSwift;
 			productName = SlideMenuControllerSwift;
-			productReference = BAF3DFF03CA20A107F8CE6E650C0D1E0 /* SlideMenuControllerSwift.framework */;
+			productReference = 0A07922F6C7B2573C1D0F072A0EE80D4 /* SlideMenuControllerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7372CA79CE92E7AC032175441663EBE4 /* BubbleTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E481E9DBD0219904DB699E6812D3EE08 /* Build configuration list for PBXNativeTarget "BubbleTransition" */;
+			buildPhases = (
+				EC9F150BE5CFC9B09C2CF61799E1FADF /* Sources */,
+				366E09354561C799A49CA36E2844E92C /* Frameworks */,
+				E2A041A90C6087B1A41C5429E7B7DE7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleTransition;
+			productName = BubbleTransition;
+			productReference = C83F617F91FD6610154DF2219BDEE284 /* BubbleTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F28340725DF972EA2B3F83B86B8E06C4 /* Pods-VegBag_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584E43F5FF0519705E85329D35C13C32 /* Build configuration list for PBXNativeTarget "Pods-VegBag_Demo" */;
+			buildPhases = (
+				CD07CAEF720F2B8EF5B7F7CD74CBFDDA /* Sources */,
+				EACC2C2564207CBD31994EB05BD745BF /* Frameworks */,
+				E7138F8994DE889DADBAAB54EB587C1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D018D1BA74E5540CB7021BF32D4A89C0 /* PBXTargetDependency */,
+				8421EBDE84DDDAF60241B67E0ABE356C /* PBXTargetDependency */,
+			);
+			name = "Pods-VegBag_Demo";
+			productName = "Pods-VegBag_Demo";
+			productReference = 9AEFF65F7F14C270D15BE30C5E93DCDD /* Pods_VegBag_Demo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,76 +322,64 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 543D5536ACAD75D08CF9F315E27B6C86 /* Products */;
+			productRefGroup = E2CCE2069BC0E4AE4833C94194B336A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55CF286FDDC36862D66935D30EF60521 /* Pods-VegBag_Demo */,
-				967F661B4B01C045589DD4D788EC98D8 /* SlideMenuControllerSwift */,
+				7372CA79CE92E7AC032175441663EBE4 /* BubbleTransition */,
+				F28340725DF972EA2B3F83B86B8E06C4 /* Pods-VegBag_Demo */,
+				491CC4F397D0BB59989E2313AF932C0C /* SlideMenuControllerSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		155873626D7702C17549E35CCA3CA50C /* Sources */ = {
+		521EF4B525CEEB30CDB5D5F324E11DF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74960770E9AAD80D4ECA0BA326B3543F /* Pods-VegBag_Demo-dummy.m in Sources */,
+				2B0EDEF8BF68B9A4D22FA2C216CB5906 /* Info.plist in Sources */,
+				5EBFCB7C6BDCC4CB45F7A6D33D804490 /* SlideMenuController.swift in Sources */,
+				D1CD5B498FFD3D9D3B24B6FBA28AF128 /* SlideMenuControllerSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B84C455AAAEB694DB0572739FA72768C /* Sources */ = {
+		CD07CAEF720F2B8EF5B7F7CD74CBFDDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B47588B3BFC677ABBAB23AF226CD22 /* Info.plist in Sources */,
-				FB0DDCFC435D42C6826452540470659A /* SlideMenuController.swift in Sources */,
-				F6EB7B39A7719CF4A9986F91CCCB1F6C /* SlideMenuControllerSwift-dummy.m in Sources */,
+				DF18BAAA0CBF7D599FF6150C37CE287D /* Pods-VegBag_Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9F150BE5CFC9B09C2CF61799E1FADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FD2D1EDA1DF772423A8E58EE2DC666 /* BubbleTransition-dummy.m in Sources */,
+				C4E79DABD14CC24E9BDC4DABC9818652 /* BubbleTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D9AF61DBF8EE2F1ACEE55DAFC16443A /* PBXTargetDependency */ = {
+		8421EBDE84DDDAF60241B67E0ABE356C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SlideMenuControllerSwift;
-			target = 967F661B4B01C045589DD4D788EC98D8 /* SlideMenuControllerSwift */;
-			targetProxy = 1BB011D677F13FC531C14606E43742DF /* PBXContainerItemProxy */;
+			target = 491CC4F397D0BB59989E2313AF932C0C /* SlideMenuControllerSwift */;
+			targetProxy = 9166F219AE4CC78B1C91D9DCD5BD165B /* PBXContainerItemProxy */;
+		};
+		D018D1BA74E5540CB7021BF32D4A89C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BubbleTransition;
+			target = 7372CA79CE92E7AC032175441663EBE4 /* BubbleTransition */;
+			targetProxy = E6ACB141B8ADD5E5D53C3951B16B85A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F6F7F3F8D4F2714D3B897E8CD411328 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93DFF7687C568F8527BDA9633F0EC9BA /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		32D5D2BBF20E74B91E3B5B2877CA8F6B /* Debug */ = {
+		1923C7E3E3A7D94FE8E3A1A6C2C4F581 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9E978E7FF1F465F387A3888027232C0 /* Pods-VegBag_Demo.debug.xcconfig */;
 			buildSettings = {
@@ -344,9 +410,9 @@
 			};
 			name = Debug;
 		};
-		9E64073C39EBC96D9D7F8D27759F7F26 /* Release */ = {
+		21C023D42FA7FE883FBA476AD58CA063 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93DFF7687C568F8527BDA9633F0EC9BA /* SlideMenuControllerSwift.xcconfig */;
+			baseConfigurationReference = AA90AD316ACE4BCFEBA04CD8748EEBDF /* SlideMenuControllerSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -371,7 +437,7 @@
 			};
 			name = Release;
 		};
-		A52A7E090402FC243E83C2D2A06FE027 /* Release */ = {
+		94C3741CA7A6C483D17ADF6215E58F89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9551F3C935ABBEF8153C9113913A92C0 /* Pods-VegBag_Demo.release.xcconfig */;
 			buildSettings = {
@@ -393,6 +459,33 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_VegBag_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A23C9A903B34B1608AFB4FBBF118ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0376F2C89EB211EBE8A5509F3D850E /* BubbleTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTransition/BubbleTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTransition/BubbleTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BubbleTransition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,6 +530,62 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE6F11DE46CF4FC2E24D3B7D58618EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0376F2C89EB211EBE8A5509F3D850E /* BubbleTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTransition/BubbleTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTransition/BubbleTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BubbleTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D23DB1A69AD56ADE8FB1260062EBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA90AD316ACE4BCFEBA04CD8748EEBDF /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -486,20 +635,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4CB1A0971B6A9CDE8120EFACF16A4F2 /* Build configuration list for PBXNativeTarget "Pods-VegBag_Demo" */ = {
+		3837B6C92EFC3963339D44D134531444 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32D5D2BBF20E74B91E3B5B2877CA8F6B /* Debug */,
-				A52A7E090402FC243E83C2D2A06FE027 /* Release */,
+				E7D23DB1A69AD56ADE8FB1260062EBCE /* Debug */,
+				21C023D42FA7FE883FBA476AD58CA063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3B7F5D00546F6EB1DB95D6C53DCEC46 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+		584E43F5FF0519705E85329D35C13C32 /* Build configuration list for PBXNativeTarget "Pods-VegBag_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F6F7F3F8D4F2714D3B897E8CD411328 /* Debug */,
-				9E64073C39EBC96D9D7F8D27759F7F26 /* Release */,
+				1923C7E3E3A7D94FE8E3A1A6C2C4F581 /* Debug */,
+				94C3741CA7A6C483D17ADF6215E58F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E481E9DBD0219904DB699E6812D3EE08 /* Build configuration list for PBXNativeTarget "BubbleTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6F11DE46CF4FC2E24D3B7D58618EBC /* Debug */,
+				9A23C9A903B34B1608AFB4FBBF118ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
