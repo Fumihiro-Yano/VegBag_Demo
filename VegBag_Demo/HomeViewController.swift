@@ -11,9 +11,12 @@ import BubbleTransition
 
 var pageMenu : CAPSPageMenu?
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     @IBOutlet weak var exhibitButton: UIButton!
+    
+    let transition = BubbleTransition()
+    
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
@@ -151,7 +154,28 @@ class HomeViewController: UIViewController {
         return true
     }
 
+    //ExhibitButtonをBubbleTransitionAnimationで表示
+    @IBAction func onClickExhibitButton(sender: UIButton) {
+        let  cameraCaptureViewController =  CameraCaptureViewController()
+        let navigationController = UINavigationController(rootViewController: cameraCaptureViewController)
+        navigationController.transitioningDelegate = self
+        navigationController.modalPresentationStyle = .Custom
+        self.presentViewController(navigationController, animated: true, completion: nil)
+    }
     
+    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .Present
+        transition.startingPoint = exhibitButton.center
+        transition.bubbleColor = exhibitButton.backgroundColor!
+        return transition
+    }
+    
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .Dismiss
+        transition.startingPoint = exhibitButton.center
+        transition.bubbleColor = exhibitButton.backgroundColor!
+        return transition
+    }
 
 
 }
