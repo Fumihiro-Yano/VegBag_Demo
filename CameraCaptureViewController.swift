@@ -17,6 +17,7 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
     var preView:UIView!
     var camera:AVCaptureDevice!
     
+    @IBOutlet weak var previewView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,7 +36,7 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
     // メモリ管理のため
     override func viewWillAppear(animated: Bool) {
         // スクリーン設定
-        setupDisplay()
+        //setupDisplay()
         // カメラの設定
         setupCamera()
     }
@@ -56,16 +57,16 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
         camera = nil
     }
     
-    func setupDisplay(){
-        //スクリーンの幅
-        let screenWidth = UIScreen.mainScreen().bounds.size.width;
-        //スクリーンの高さ
-        let screenHeight = UIScreen.mainScreen().bounds.size.height;
-        
-        // プレビュー用のビューを生成
-        preView = UIView(frame: CGRectMake(0.0, 0.0, screenWidth, screenHeight))
-        
-    }
+//    func setupDisplay(){
+//        //スクリーンの幅
+//        let screenWidth = UIScreen.mainScreen().bounds.size.width;
+//        //スクリーンの高さ
+//        let screenHeight = UIScreen.mainScreen().bounds.size.height;
+//        
+//        // プレビュー用のビューを生成
+//        preView = UIView(frame: CGRectMake(0.0, 0.0, screenWidth, screenHeight))
+//        
+//    }
     
     func setupCamera(){
         
@@ -105,7 +106,7 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
         // セッションからプレビューを表示を
         let previewLayer = AVCaptureVideoPreviewLayer(session: session)
         
-        previewLayer.frame = preView.frame
+        previewLayer.frame = previewView.frame
         
         //        previewLayer.videoGravity = AVLayerVideoGravityResize
         //        previewLayer.videoGravity = AVLayerVideoGravityResizeAspect

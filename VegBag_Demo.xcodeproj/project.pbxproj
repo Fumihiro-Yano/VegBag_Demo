@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		363287BEBBC9149103605A12 /* Pods_VegBag_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E65125CA23366E0676CCFE5 /* Pods_VegBag_Demo.framework */; };
 		E741C9661C350EE90008194B /* CameraCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741C9651C350EE90008194B /* CameraCaptureViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E741C96A1C352D1E0008194B /* CameraCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E741C9691C352D1E0008194B /* CameraCaptureViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		E752EC5A1C34ED0900949AB0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC561C34ED0900949AB0 /* String.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC5B1C34ED0900949AB0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC571C34ED0900949AB0 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC5C1C34ED0900949AB0 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC581C34ED0900949AB0 /* UIImageView.swift */; settings = {ASSET_TAGS = (); }; };
@@ -102,6 +103,7 @@
 		2E65125CA23366E0676CCFE5 /* Pods_VegBag_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegBag_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499E53EF31A1C77F464E71AF /* Pods-VegBag_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VegBag_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VegBag_Demo/Pods-VegBag_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E741C9651C350EE90008194B /* CameraCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCaptureViewController.swift; sourceTree = "<group>"; };
+		E741C9691C352D1E0008194B /* CameraCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCaptureViewController.xib; sourceTree = "<group>"; };
 		E752EC561C34ED0900949AB0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		E752EC571C34ED0900949AB0 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E752EC581C34ED0900949AB0 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				E741C9651C350EE90008194B /* CameraCaptureViewController.swift */,
+				E741C9691C352D1E0008194B /* CameraCaptureViewController.xib */,
 				E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */,
 				E752EC651C34FA6800949AB0 /* HomeViewController.xib */,
 				E786CC751C34E30D009646EB /* SlideMenuViewController.swift */,
@@ -562,6 +565,7 @@
 				E7EA16C21C33CE7800C43FF4 /* menu24.png in Resources */,
 				E7EA16DA1C33E52200C43FF4 /* TestViewController.xib in Resources */,
 				E7EA16B61C33AC1900C43FF4 /* woman2.jpg in Resources */,
+				E741C96A1C352D1E0008194B /* CameraCaptureViewController.xib in Resources */,
 				E752EC661C34FA6800949AB0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
