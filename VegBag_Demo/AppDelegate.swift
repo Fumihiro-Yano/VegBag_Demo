@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SlideMenuControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,14 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var myNavigationController: UINavigationController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
-        let first: HomeViewController = HomeViewController()
-        myNavigationController = UINavigationController(rootViewController: first)
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window?.rootViewController = myNavigationController
-        self.window?.makeKeyAndVisible()
+        let first: HomeViewController = HomeViewController()
+        let left: SlideMenuViewController = SlideMenuViewController()
         
-        return true
+        
+        myNavigationController = UINavigationController(rootViewController: first)
+        
+        let slideMenuController = SlideMenuController(mainViewController: myNavigationController!, leftMenuViewController: left)
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.rootViewController = slideMenuController
+        self.window?.makeKeyAndVisible()
+      return true
     }
 
     func applicationWillResignActive(application: UIApplication) {
