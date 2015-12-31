@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		363287BEBBC9149103605A12 /* Pods_VegBag_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E65125CA23366E0676CCFE5 /* Pods_VegBag_Demo.framework */; };
+		E741C9661C350EE90008194B /*  CameraCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741C9651C350EE90008194B /*  CameraCaptureViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC5A1C34ED0900949AB0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC561C34ED0900949AB0 /* String.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC5B1C34ED0900949AB0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC571C34ED0900949AB0 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
 		E752EC5C1C34ED0900949AB0 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752EC581C34ED0900949AB0 /* UIImageView.swift */; settings = {ASSET_TAGS = (); }; };
@@ -100,6 +101,7 @@
 		16289907B41C72258D1A2280 /* Pods-VegBag_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VegBag_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VegBag_Demo/Pods-VegBag_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		2E65125CA23366E0676CCFE5 /* Pods_VegBag_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VegBag_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499E53EF31A1C77F464E71AF /* Pods-VegBag_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VegBag_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VegBag_Demo/Pods-VegBag_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E741C9651C350EE90008194B /*  CameraCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " CameraCaptureViewController.swift"; sourceTree = "<group>"; };
 		E752EC561C34ED0900949AB0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		E752EC571C34ED0900949AB0 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E752EC581C34ED0900949AB0 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 		E7EA16691C33A66100C43FF4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E741C9651C350EE90008194B /*  CameraCaptureViewController.swift */,
 				E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */,
 				E752EC651C34FA6800949AB0 /* HomeViewController.xib */,
 				E786CC751C34E30D009646EB /* SlideMenuViewController.swift */,
@@ -637,6 +640,7 @@
 				E7EA16CA1C33D95F00C43FF4 /* FlowerVegetablesCollectionViewController.swift in Sources */,
 				E7EA16DC1C33E52B00C43FF4 /* TestViewController.swift in Sources */,
 				E752EC601C34EDCB00949AB0 /* SliderMenuHandler.swift in Sources */,
+				E741C9661C350EE90008194B /*  CameraCaptureViewController.swift in Sources */,
 				E7EA16361C32BCF000C43FF4 /* HomeViewController.swift in Sources */,
 				E7EA16C81C33D70E00C43FF4 /* FruitVegetablesCollectionViewController.swift in Sources */,
 				E752EC5D1C34ED0900949AB0 /* UIImage.swift in Sources */,
