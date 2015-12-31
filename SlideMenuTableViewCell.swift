@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomUITableViewCell : UITableViewCell{
+class SlideMenuTableViewCell : UITableViewCell{
 
     @IBOutlet weak var cellIconImage: UIImageView!
     @IBOutlet weak var cellLabel: UILabel!

@@ -18,9 +18,6 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
         self.view.backgroundColor = UIColor.cyanColor()
         self.imageHeaderView = ImageHeaderView.loadNib()
         self.view.addSubview(self.imageHeaderView)
-        // Cell名の登録をおこなう.
-        //        registerClassだとカスタムセルが見つからない。
-        //        myTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
     }
     
     override func viewDidLayoutSubviews() {
@@ -29,8 +26,8 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
         let displayHeight: CGFloat = self.view.frame.height - 160
         myTableView = UITableView(frame: CGRect(x: 0, y: 160, width: displayWidth, height: displayHeight))
         myTableView.contentSize = CGSizeMake(displayWidth, displayHeight * 10)
-        let nib = UINib(nibName: "CustomUITableViewCell", bundle: nil)
-        myTableView.registerNib(nib, forCellReuseIdentifier: "CustomUITableViewCell")
+        let nib = UINib(nibName: "SlideMenuTableViewCell", bundle: nil)
+        myTableView.registerNib(nib, forCellReuseIdentifier: "SlideMenuTableViewCell")
         // DataSourceの設定をする.
         myTableView.dataSource = self
         // Delegateを設定する.
@@ -75,17 +72,9 @@ class SlideMenuViewController: UIViewController, UITableViewDelegate, UITableVie
     (実装必須)
     */
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        // 再利用するCellを取得する.
-        //let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
-        
-        let cell: CustomUITableViewCell = tableView.dequeueReusableCellWithIdentifier("CustomUITableViewCell", forIndexPath: indexPath) as! CustomUITableViewCell
+        let cell: SlideMenuTableViewCell = tableView.dequeueReusableCellWithIdentifier("SlideMenuTableViewCell", forIndexPath: indexPath) as! SlideMenuTableViewCell
         
         cell.cellLabel.text = "\(myItems[indexPath.row])"
-        
-        // Cellに値を設定する.
-        //        cell.textLabel!.text = "\(myItems[indexPath.row])"
-        
         return cell
     }
     
