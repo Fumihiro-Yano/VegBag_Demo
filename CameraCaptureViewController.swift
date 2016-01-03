@@ -17,16 +17,18 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
     var preView:UIView!
     var camera:AVCaptureDevice!
     
+    @IBOutlet weak var albumButton: UIButton!
+    @IBOutlet weak var captureButton: UIButton!
     @IBOutlet weak var previewView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // 画面タップでシャッターを切るための設定
-        let tapGesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "tapped:")
-        // デリゲートをセット
-        tapGesture.delegate = self;
-        // Viewに追加.
-        self.view.addGestureRecognizer(tapGesture)
+//        // 画面タップでシャッターを切るための設定
+//        let tapGesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "tapped:")
+//        // デリゲートをセット
+//        tapGesture.delegate = self;
+//        // Viewに追加.
+//        self.view.addGestureRecognizer(tapGesture)
         
         let closeButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Stop, target: self, action: "onClickcloseButton:")
         self.navigationItem.setLeftBarButtonItem(closeButton, animated: true)
@@ -120,9 +122,12 @@ class CameraCaptureViewController: UIViewController, UIGestureRecognizerDelegate
     }
     
     
-    // タップイベント.
-    func tapped(sender: UITapGestureRecognizer){
-        print("タップ")
+//    // タップイベント.
+//    func tapped(sender: UITapGestureRecognizer){
+//        print("タップ")
+//        takeStillPicture()
+//    }
+    @IBAction func onClickCaptureButton(sender: UIButton) {
         takeStillPicture()
     }
     
