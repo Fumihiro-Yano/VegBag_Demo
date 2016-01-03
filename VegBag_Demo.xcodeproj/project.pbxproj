@@ -21,6 +21,11 @@
 		E786CC761C34E30D009646EB /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786CC751C34E30D009646EB /* SlideMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E786CC7B1C34EC74009646EB /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E786CC791C34EC74009646EB /* ImageHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
 		E786CC7C1C34EC74009646EB /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786CC7A1C34EC74009646EB /* ImageHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B5E4B11C3944010036D9CC /* AlubumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5E4B01C3944010036D9CC /* AlubumViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B5E4B31C3944600036D9CC /* AlubumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B5E4B21C3944600036D9CC /* AlubumViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		E7B5E4B51C3945D80036D9CC /* AlubumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5E4B41C3945D80036D9CC /* AlubumTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B5E4B71C3945FB0036D9CC /* AlubumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B5E4B61C3945FB0036D9CC /* AlubumTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E7B5E4B91C394DAC0036D9CC /* PHPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5E4B81C394DAC0036D9CC /* PHPhotoLibrary.swift */; settings = {ASSET_TAGS = (); }; };
 		E7EA16341C32BCF000C43FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16331C32BCF000C43FF4 /* AppDelegate.swift */; };
 		E7EA16361C32BCF000C43FF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */; };
 		E7EA163B1C32BCF000C43FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EA163A1C32BCF000C43FF4 /* Assets.xcassets */; };
@@ -115,6 +120,11 @@
 		E786CC751C34E30D009646EB /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
 		E786CC791C34EC74009646EB /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
 		E786CC7A1C34EC74009646EB /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		E7B5E4B01C3944010036D9CC /* AlubumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlubumViewController.swift; sourceTree = "<group>"; };
+		E7B5E4B21C3944600036D9CC /* AlubumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlubumViewController.xib; sourceTree = "<group>"; };
+		E7B5E4B41C3945D80036D9CC /* AlubumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlubumTableViewCell.swift; sourceTree = "<group>"; };
+		E7B5E4B61C3945FB0036D9CC /* AlubumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlubumTableViewCell.xib; sourceTree = "<group>"; };
+		E7B5E4B81C394DAC0036D9CC /* PHPhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPhotoLibrary.swift; sourceTree = "<group>"; };
 		E7EA16301C32BCF000C43FF4 /* VegBag_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegBag_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EA16331C32BCF000C43FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EA16351C32BCF000C43FF4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = VegBag_Demo/HomeViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				E752EC561C34ED0900949AB0 /* String.swift */,
+				E7B5E4B81C394DAC0036D9CC /* PHPhotoLibrary.swift */,
 				E752EC571C34ED0900949AB0 /* UIView.swift */,
 				E752EC581C34ED0900949AB0 /* UIImageView.swift */,
 				E752EC591C34ED0900949AB0 /* UIImage.swift */,
@@ -347,6 +358,8 @@
 				E7EA16D91C33E52200C43FF4 /* TestViewController.xib */,
 				E7EA16D71C33E51A00C43FF4 /* TestTableViewController.swift */,
 				E7EA16DD1C33E53400C43FF4 /* TestTableViewController.xib */,
+				E7B5E4B01C3944010036D9CC /* AlubumViewController.swift */,
+				E7B5E4B21C3944600036D9CC /* AlubumViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -358,6 +371,8 @@
 				E752EC611C34EE0B00949AB0 /* SlideMenuTableViewCell.xib */,
 				E7EA16E31C33E5A700C43FF4 /* FriendTableViewCell.swift */,
 				E7EA16E41C33E5A700C43FF4 /* FriendTableViewCell.xib */,
+				E7B5E4B41C3945D80036D9CC /* AlubumTableViewCell.swift */,
+				E7B5E4B61C3945FB0036D9CC /* AlubumTableViewCell.xib */,
 				E7EA16DF1C33E59800C43FF4 /* MoodCollectionViewCell.swift */,
 				E7EA16E01C33E59800C43FF4 /* MoodCollectionViewCell.xib */,
 			);
@@ -542,6 +557,7 @@
 				E786CC7B1C34EC74009646EB /* ImageHeaderView.xib in Resources */,
 				E7EA16AD1C33AC1900C43FF4 /* mood4.jpg in Resources */,
 				E7EA16AA1C33AC1900C43FF4 /* mood1.jpg in Resources */,
+				E7B5E4B31C3944600036D9CC /* AlubumViewController.xib in Resources */,
 				E7EA16A91C33AC1900C43FF4 /* man8.jpg in Resources */,
 				E7EA16A61C33AC1900C43FF4 /* man5.jpg in Resources */,
 				E7EA16B21C33AC1900C43FF4 /* playful.png in Resources */,
@@ -551,6 +567,7 @@
 				E7EA163E1C32BCF000C43FF4 /* LaunchScreen.storyboard in Resources */,
 				E7EA16A71C33AC1900C43FF4 /* man6.jpg in Resources */,
 				E7EA163B1C32BCF000C43FF4 /* Assets.xcassets in Resources */,
+				E7B5E4B71C3945FB0036D9CC /* AlubumTableViewCell.xib in Resources */,
 				E7EA16AF1C33AC1900C43FF4 /* mood6.jpg in Resources */,
 				E7EA169F1C33AC1900C43FF4 /* happy.png in Resources */,
 				E7EA16AB1C33AC1900C43FF4 /* mood2.jpg in Resources */,
@@ -644,6 +661,7 @@
 				E7EA16CA1C33D95F00C43FF4 /* FlowerVegetablesCollectionViewController.swift in Sources */,
 				E7EA16DC1C33E52B00C43FF4 /* TestViewController.swift in Sources */,
 				E752EC601C34EDCB00949AB0 /* SliderMenuHandler.swift in Sources */,
+				E7B5E4B51C3945D80036D9CC /* AlubumTableViewCell.swift in Sources */,
 				E741C9661C350EE90008194B /* CameraCaptureViewController.swift in Sources */,
 				E7EA16361C32BCF000C43FF4 /* HomeViewController.swift in Sources */,
 				E7EA16C81C33D70E00C43FF4 /* FruitVegetablesCollectionViewController.swift in Sources */,
@@ -651,12 +669,14 @@
 				E7EA16CC1C33D97F00C43FF4 /* StemVegetablesCollectionViewController.swift in Sources */,
 				E7EA16C61C33D3FA00C43FF4 /* EdibleRootsCollectionViewController.swift in Sources */,
 				E7EA16341C32BCF000C43FF4 /* AppDelegate.swift in Sources */,
+				E7B5E4B91C394DAC0036D9CC /* PHPhotoLibrary.swift in Sources */,
 				E7EA16CE1C33D99E00C43FF4 /* LeafyVegetablesCollectionViewConroller.swift in Sources */,
 				E7EA16D21C33D9F400C43FF4 /* KyotoVegetablesCollectionViewController.swift in Sources */,
 				E7EA16681C33A2D100C43FF4 /* CAPSPageMenu.swift in Sources */,
 				E752EC5A1C34ED0900949AB0 /* String.swift in Sources */,
 				E752EC5B1C34ED0900949AB0 /* UIView.swift in Sources */,
 				E7EA16E51C33E5A700C43FF4 /* FriendTableViewCell.swift in Sources */,
+				E7B5E4B11C3944010036D9CC /* AlubumViewController.swift in Sources */,
 				E752EC641C34EE0B00949AB0 /* SlideMenuTableViewCell.swift in Sources */,
 				E7EA16E11C33E59800C43FF4 /* MoodCollectionViewCell.swift in Sources */,
 				E752EC5C1C34ED0900949AB0 /* UIImageView.swift in Sources */,

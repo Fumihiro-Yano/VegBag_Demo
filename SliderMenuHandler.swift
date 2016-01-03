@@ -38,8 +38,8 @@ class SliderMenuHandler {
             let cameraCaptureViewController = CameraCaptureViewController()
             return cameraCaptureViewController
         case .Purchase:
-            let testTableViewController = TestTableViewController()
-            return testTableViewController
+            let alubumViewController = AlubumViewController()
+            return alubumViewController
         case .Setting:
             let testTableViewController = TestTableViewController()
             return testTableViewController
