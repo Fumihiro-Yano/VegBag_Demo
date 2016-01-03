@@ -7,15 +7,31 @@
 //
 
 import UIKit
+import Photos
 
 class AlubumViewController: UITableViewController {
     
-    var namesArray : [String] = ["Lauren Richard", "Nicholas Ray", "Kim White", "Charles Gray", "Timothy Jones", "Sarah Underwood", "William Pearl", "Juan Rodriguez", "Anna Hunt", "Marie Turner", "George Porter", "Zachary Hecker", "David Fletcher"]
     var photoNameArray : [String] = ["woman5.jpg", "man1.jpg", "woman1.jpg", "man2.jpg", "man3.jpg", "woman2.jpg", "man4.jpg", "man5.jpg", "woman3.jpg", "woman4.jpg", "man6.jpg", "man7.jpg", "man8.jpg"]
+    
+    // アルバム.
+    var photsAlbum: NSMutableArray!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        PHPhotoLibrary.Authorization()
+        photsAlbum = NSMutableArray()
+        // フォトアプリの中にあるアルバムを検索する.
+        let list = PHAssetCollection.fetchAssetCollectionsWithType(PHAssetCollectionType.Album, subtype: PHAssetCollectionSubtype.Any, options: nil)
+        
+        list.enumerateObjectsUsingBlock { (album, index, isStop) -> Void in
+            if let album = album as? PHCollection { // PHCollectionにキャスト
+                if let localizedTitle = album.localizedTitle { // localizedTitleはnilの可能性がある
+                    self.photsAlbum.addObject(localizedTitle)
+                }
+            }
+        }
+    
         self.tableView.registerNib(UINib(nibName: "AlubumTableViewCell", bundle: nil), forCellReuseIdentifier: "AlubumTableViewCell")
     }
     
@@ -35,14 +51,14 @@ class AlubumViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 13
+        return photsAlbum.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell : AlubumTableViewCell = tableView.dequeueReusableCellWithIdentifier("AlubumTableViewCell") as! AlubumTableViewCell
         
         // Configure the cell...
-        cell.alubumNameLabel.text = namesArray[indexPath.row]
+        cell.alubumNameLabel.text = "\(photsAlbum[indexPath.row])"
         cell.alubumCountLabel.text = "100"
         cell.alubumThumbnailImageView.image = UIImage(named: photoNameArray[indexPath.row])
         

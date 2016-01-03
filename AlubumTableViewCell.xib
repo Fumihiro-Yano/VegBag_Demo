@@ -11,41 +11,41 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vWx-Jt-ovT" id="Rng-R7-3iw">
-                <rect key="frame" x="0.0" y="0.0" width="287" height="79.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="287" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cix-TX-411">
                         <rect key="frame" x="15" y="4" width="71" height="71"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="71" id="k34-B4-quu"/>
+                            <constraint firstAttribute="width" constant="71" id="ZJ2-Lm-Uki"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knh-aX-y5A">
-                        <rect key="frame" x="94" y="18" width="188" height="24"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYp-pU-sWN">
                         <rect key="frame" x="129" y="50" width="47" height="15"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="15" id="is7-z0-S5g"/>
-                            <constraint firstAttribute="width" constant="47" id="qKN-CX-30B"/>
+                            <constraint firstAttribute="height" constant="15" id="6mC-NA-sg7"/>
+                            <constraint firstAttribute="width" constant="47" id="CzB-IB-co7"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knh-aX-y5A">
+                        <rect key="frame" x="94" y="18" width="188" height="24"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="knh-aX-y5A" secondAttribute="trailing" constant="-3" id="7Ia-LN-z1z"/>
-                    <constraint firstItem="dYp-pU-sWN" firstAttribute="leading" secondItem="cix-TX-411" secondAttribute="trailing" constant="43" id="DX1-1T-zRu"/>
-                    <constraint firstItem="dYp-pU-sWN" firstAttribute="top" secondItem="knh-aX-y5A" secondAttribute="bottom" constant="8" symbolic="YES" id="gQR-jO-Y4x"/>
-                    <constraint firstItem="cix-TX-411" firstAttribute="top" secondItem="Rng-R7-3iw" secondAttribute="topMargin" constant="-4" id="mzJ-79-CPj"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="dYp-pU-sWN" secondAttribute="bottom" constant="6.5" id="nFU-Ou-8be"/>
-                    <constraint firstItem="knh-aX-y5A" firstAttribute="leading" secondItem="cix-TX-411" secondAttribute="trailing" constant="8" symbolic="YES" id="r1e-Y9-5sI"/>
-                    <constraint firstItem="cix-TX-411" firstAttribute="centerY" secondItem="Rng-R7-3iw" secondAttribute="centerY" id="uHp-ls-nqH"/>
-                    <constraint firstItem="knh-aX-y5A" firstAttribute="top" secondItem="Rng-R7-3iw" secondAttribute="topMargin" constant="10" id="xeE-aw-NCg"/>
-                    <constraint firstItem="cix-TX-411" firstAttribute="leading" secondItem="Rng-R7-3iw" secondAttribute="leadingMargin" constant="7" id="ysQ-lk-6is"/>
+                    <constraint firstItem="knh-aX-y5A" firstAttribute="top" secondItem="Rng-R7-3iw" secondAttribute="topMargin" constant="10" id="AM6-cr-A9P"/>
+                    <constraint firstItem="dYp-pU-sWN" firstAttribute="leading" secondItem="cix-TX-411" secondAttribute="trailing" constant="43" id="ANY-wV-ewk"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="knh-aX-y5A" secondAttribute="trailing" constant="-3" id="HDL-CZ-s49"/>
+                    <constraint firstItem="cix-TX-411" firstAttribute="leading" secondItem="Rng-R7-3iw" secondAttribute="leadingMargin" constant="7" id="JSf-ia-WJM"/>
+                    <constraint firstItem="knh-aX-y5A" firstAttribute="leading" secondItem="cix-TX-411" secondAttribute="trailing" constant="8" symbolic="YES" id="WOd-Y1-VvW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="dYp-pU-sWN" secondAttribute="bottom" constant="6.5" id="b1L-d4-IQu"/>
+                    <constraint firstItem="dYp-pU-sWN" firstAttribute="top" secondItem="knh-aX-y5A" secondAttribute="bottom" constant="8" symbolic="YES" id="br9-f8-9Cc"/>
+                    <constraint firstItem="cix-TX-411" firstAttribute="top" secondItem="Rng-R7-3iw" secondAttribute="topMargin" constant="-4" id="s9j-ne-dtS"/>
+                    <constraint firstItem="cix-TX-411" firstAttribute="centerY" secondItem="Rng-R7-3iw" secondAttribute="centerY" id="xJ8-op-wHZ"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
