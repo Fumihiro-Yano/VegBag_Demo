@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraCaptureViewController" customModule="VegBag_Demo" customModuleProvider="target">
             <connections>
+                <outlet property="albumButton" destination="kSw-bZ-Lue" id="1dn-Pc-HKX"/>
+                <outlet property="captureButton" destination="GnS-d9-O3J" id="XqD-jK-xfY"/>
                 <outlet property="previewView" destination="Fhm-RC-Fj1" id="br3-BP-gfj"/>
                 <outlet property="view" destination="iN0-l3-epB" id="cjy-kl-brT"/>
             </connections>
@@ -28,6 +30,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="◎"/>
+                    <connections>
+                        <action selector="onClickCaptureButton:" destination="-1" eventType="touchUpInside" id="CsR-vi-Xv4"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSw-bZ-Lue">
                     <rect key="frame" x="165" y="518" width="40" height="24"/>
