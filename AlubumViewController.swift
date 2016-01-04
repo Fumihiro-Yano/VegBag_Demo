@@ -59,7 +59,7 @@ class AlubumViewController: UITableViewController {
         
         // Configure the cell...
         cell.alubumNameLabel.text = "\(photsAlbum[indexPath.row])"
-        cell.alubumCountLabel.text = "100"
+        cell.alubumCountLabel.text = "\(photsAlbum.count)"
         cell.alubumThumbnailImageView.image = UIImage(named: photoNameArray[indexPath.row])
         
         return cell
